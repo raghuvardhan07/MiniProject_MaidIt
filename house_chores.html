@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="house_chores_styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Maid-It</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins&family=Rancho&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/cleaning-lady.png">
+</head>
+<body>
+    <div id="landing_page">
+        <div id="nav"><span>House Chores</span></div>
+        <div id="services_container">
+            <img class="services_images" src="images/cleaning-lady.png" onclick="Maid()" alt="">
+            <img class="services_images" src="images/leak.png" onclick="Laundry()" alt="">
+            <img class="services_images" src="images/scissor-and-comb.png" onclick="Cook()" alt="">
+            <img class="services_images" src="images/electrician.png" onclick="Shoe()" alt="">
+            <div class="captions Maid">Maid</div>
+            <div class="captions Iron">Laundry</div>
+            <div class="captions Cook">Cook</div>
+            <div class="captions Shoe">Bathroom</div>
+
+        </div>
+    </div>
+    <div class="services_section" id="Maid">
+        <h1>Maid</h1>
+        <div class="details">
+            <h2>Utensil Cleaning</h2>
+            <p><strong>Rating</strong>: 4.7⭐(69,420 ratings)<br>
+                <strong><em>₹250/hr</em></strong></p>
+                <button class="btn atc add-to-cart" >Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>House keeping</h2>
+            <p><strong>Rating</strong>: 4.6⭐(96,420 ratings)<br>
+                <strong><em>₹350/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Nanny</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹499/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0" noshade="true">
+    <div class="services_section" id="Cook">
+        <h1>Cook</h1>
+        <div class="details">
+            <h2>Multi-Cuisine Chef</h2>
+            <p><strong>Rating</strong>: 4.8⭐(67,420 ratings)<br>
+                <strong><em>₹900/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Desi-Style Cook</h2>
+            <p><strong>Rating</strong>: 4.7⭐(96,420 ratings)<br>
+                <strong><em>₹500/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details" id="Nanny">
+            <h2>Vegetable Chopping</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹100/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0" noshade="true">
+    <div class="services_section" id="Laundry">
+        <h1>Laundry</h1>
+        <div class="details">
+            <h2>Steam Ironing</h2>
+            <p><strong>Rating</strong>: 4.5⭐(67,420 ratings)<br>
+                <strong><em>₹400/-</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Dry Cleaning</h2>
+            <p><strong>Rating</strong>: 4.8⭐(7,420 ratings)<br>
+                <strong><em>₹700/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Washer</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹499/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0" noshade="true">
+    <div class="services_section" id="Shoe">
+        <h1>Bathroom</h1>
+        <div class="details">
+            <h2>Toilet Cleaning</h2>
+            <p><strong>Rating</strong>: 4.8⭐(59,420 ratings)<br>
+                <strong><em>₹499/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2> Full Bathroom Cleansing</h2>
+            <p><strong>Rating</strong>: 4.5⭐(36,420 ratings)<br>
+                <strong><em>₹599/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Tile Replacement</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹1500</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="cart">
+        <h1 style="text-align: center;">Cart</h1>
+        <ul id="cart-items"></ul>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

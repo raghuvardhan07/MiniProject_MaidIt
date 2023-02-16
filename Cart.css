@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: rgb(11,70,85);
+background: linear-gradient(90deg, rgba(11,70,85,1) 0%, rgba(50,177,144,1) 45%, rgba(237,240,241,1) 100%);
+}
+#checkout-form{
+    background-color: rgb(30, 171, 171);
+    background: linear-gradient(90deg, rgb(30, 171, 171) 0%, rgb(40, 124, 124) 45%, rgb(4, 77, 77) 100%);
+    width: 40rem;
+    margin: auto 10rem;
+    padding-top: 1rem;
+    margin-top: 7rem;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgb(107, 110, 110);
+    margin-bottom: 10rem;
+}
+#checkout-form>h2{
+    margin-left: 3rem;
+}
+input{
+    border-radius: 4px;
+    margin: 2px auto;
+}
+#cart-table{
+    background-color: rgb(8, 137, 137);
+    color: azure;
+    border-radius: 5.3px;
+}
+#cart-table-body{
+    background-color: rgb(119, 241, 241);
+    color: rgb(4, 66, 66);
+}
+button {
+    background: #34d99c;
+    background-image: -webkit-linear-gradient(top, #34d99c, #2980b9);
+    background-image: -moz-linear-gradient(top, #34d99c, #2980b9);
+    background-image: -ms-linear-gradient(top, #34d99c, #2980b9);
+    background-image: -o-linear-gradient(top, #34d99c, #2980b9);
+    background-image: linear-gradient(to bottom, #34d99c, #2980b9);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+  
+button:hover {
+    background: #3ceafa;
+    background-image: -webkit-linear-gradient(top, #3ceafa, #34bbd9);
+    background-image: -moz-linear-gradient(top, #3ceafa, #34bbd9);
+    background-image: -ms-linear-gradient(top, #3ceafa, #34bbd9);
+    background-image: -o-linear-gradient(top, #3ceafa, #34bbd9);
+    background-image: linear-gradient(to bottom, #3ceafa, #34bbd9);
+    text-decoration: none;
+}
+table{
+    text-align: center;
+}
+#content-table{
+    background-color: rgb(208, 239, 239);
+    margin-left: 0px;
+    width: 31rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0 10px 0 0;
+    box-shadow: 10px 0 10px rgb(21, 166, 149);
+}

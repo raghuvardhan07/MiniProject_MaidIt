@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="house_chores_styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Maid-It</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins&family=Rancho&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/cleaning-lady.png">
+    <style>
+        .Maid{
+            left:4rem;
+        }
+        .Iron{
+            left: 16rem;
+        }
+        .Shoe{
+            left: 49rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="landing_page">
+        <div id="nav"><span style="margin: 0.9rem 38.2rem">Female Salon</span></div>
+        <div id="services_container">
+            <img class="services_images" src="images/cleaning-lady.png" onclick="Maid()" alt="">
+            <img class="services_images" src="images/leak.png" onclick="Laundry()" alt="">
+            <img class="services_images" src="images/scissor-and-comb.png" onclick="Cook()" alt="">
+            <img class="services_images" src="images/electrician.png" onclick="Shoe()" alt="">
+            <div class="captions Maid">Hair Services</div>
+            <div class="captions Iron">Waxing & Grooming</div>
+            <div class="captions Cook">Massage</div>
+            <div class="captions Shoe">Women's Spa</div>
+
+        </div>
+    </div>
+    <div class="services_section" id="Maid">
+        <h1>Hair Services</h1>
+        <div class="details">
+            <h2>Hair Cut & Conditioning</h2>
+            <p><strong>Rating</strong>: 4.7⭐(69,420 ratings)<br>
+                <strong><em>₹300/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Kid's Hair Service</h2>
+            <p><strong>Rating</strong>: 4.6⭐(96,420 ratings)<br>
+                <strong><em>₹350/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Bride Makeover</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹5999/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0" noshade="true">
+    <div class="services_section" id="Laundry">
+        <h1>Waxing & Grooming</h1>
+        <div class="details">
+            <h2>Waxing</h2>
+            <p><strong>Rating</strong>: 4.8⭐(67,420 ratings)<br>
+                <strong><em>₹150/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Grooming</h2>
+            <p><strong>Rating</strong>: 4.7⭐(96,420 ratings)<br>
+                <strong><em>₹200/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details" id="Nanny">
+            <h2>Eye Brow Threading</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹100/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0" noshade="true">
+    <div class="services_section" id="Cook">
+        <h1>Massage</h1>
+        <div class="details">
+            <h2>Stress Relief Therapy</h2>
+            <p><strong>Rating</strong>: 4.5⭐(67,420 ratings)<br>
+                <strong><em>₹1400/-</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Full Body Massage</h2>
+            <p><strong>Rating</strong>: 4.8⭐(7,420 ratings)<br>
+                <strong><em>₹700/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>BodyPain Relief Massage</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹1499/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    <hr style="margin: 0" noshade="true">
+    <div class="services_section" id="Shoe">
+        <h1>Women's Spa</h1>
+        <div class="details">
+            <h2>Stress Relief Therapy</h2>
+            <p><strong>Rating</strong>: 4.8⭐(59,420 ratings)<br>
+                <strong><em>₹499/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Facials and Cleanups</h2>
+            <p><strong>Rating</strong>: 4.5⭐(36,420 ratings)<br>
+                <strong><em>₹900/hr</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+        <br>
+        <div class="details">
+            <h2>Bleach & Detan</h2>
+            <p><strong>Rating</strong>: 4.9⭐(42,000 ratings)<br>
+                <strong><em>₹450</em></strong></p>
+                <button class="btn atc add-to-cart">Add to Cart</button>
+                <button class="btn buyn">Buy Now</button>
+            <div class="quote">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sit dicta necessitatibus odit maiores non rerum qui libero harum quia vero, repellendus ipsa distinctio id ducimus. Error a nihil voluptate."
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="cart">
+        <h1 style="text-align: center;">Cart</h1>
+        <ul id="cart-items"></ul>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

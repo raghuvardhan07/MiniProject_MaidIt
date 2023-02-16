@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Cart.css">
+  <title>Maid-It</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins&family=Rancho&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/cleaning-lady.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <form id="checkout-form">
+    <h2>Checkout</h2>
+    <div id="content-table">
+      <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+  
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="cart-table-body">
+        
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total Cost: </td>
+          <td id="total-cost"></td>
+        </tr>
+      </tfoot>
+    </table>
+  <button type="submit">Place Order</button>
+    </div>
+  
+  </form>
+  <script src="Cart.js"></script>
+</body>
+</html>
